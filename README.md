@@ -1,5 +1,3 @@
-# -WizFit-Challenge
-
 # Wizfit Challenge
 
 Wizfit Challenge is a web application built with Vue 3 and Vite. This project is designed to provide users with an interactive experience related to the Wizfit platform.
@@ -40,3 +38,19 @@ To get started with the Wizfit Challenge, follow these steps:
    ```bash
    git clone https://github.com/yourusername/wizfit-challenge.git
    ```
+
+2. ## Navigate to the Project Directory
+
+- **cd wizfit-challenge**
+
+3. ## Install Dependencies
+
+```bash
+npm install
+```
+
+3. ## Usage
+
+```bash
+npm run dev
+```
