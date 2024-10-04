@@ -116,6 +116,7 @@ const handleImageError = (event) => {
 onMounted(() => {
   fetchCampaigns();
 });
+console.log("Base URL:", import.meta.env.VITE_BASE_URL);
 </script>
 
 <style scoped>
