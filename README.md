@@ -39,18 +39,18 @@ To get started with the Wizfit Challenge, follow these steps:
    git clone https://github.com/yourusername/wizfit-challenge.git
    ```
 
-2. ## Navigate to the Project Directory
+2. **Navigate to the Project Directory**
 
 - **cd wizfit-challenge**
 
-3. ## Install Dependencies
+3. **Install Dependencies**
 
-```bash
+```
 npm install
 ```
 
-3. ## Usage
+3. **Usage**
 
-```bash
+```
 npm run dev
 ```
