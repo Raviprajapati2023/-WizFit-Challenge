@@ -8,9 +8,6 @@ Wizfit Challenge is a web application built with Vue 3 and Vite. This project is
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -49,7 +46,7 @@ To get started with the Wizfit Challenge, follow these steps:
 npm install
 ```
 
-3. **Usage**
+## Usage
 
 ```
 npm run dev
