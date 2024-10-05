@@ -4,7 +4,7 @@
       <img src="/img/player.png" alt="Player Image" class="w-full" />
     </div>
     <div
-      class="bg-white rounded-lg custom-shadow p-4 w-full max-w-2xl text-center px-20"
+      class="bg-white rounded-lg custom-shadow p-4 w-full max-w-2xl text-center md:px-20 sm:px-8"
     >
       <div class="text-3xl font-bold text-pink-600 mb-2">
         Are you ready to take the challenge?
@@ -47,7 +47,7 @@
         {{ error }}
       </div>
 
-      <div class="h-32 overflow-auto pr-4">
+      <div class="h-32 overflow-auto pr-4 md:pr-8">
         <div v-if="!loading && !campaigns.length" class="text-gray-500">
           No campaigns found. Please try a different search.
         </div>
@@ -61,16 +61,18 @@
             <img
               :src="campaign.logo_url || '/img/default-img.jpg'"
               alt="100x100"
-              class="w-8 h-8 rounded-full mr-2"
+              class="w-8 h-8 rounded-full mr-2 md:w-10 md:h-10 lg:w-12 lg:h-12"
               loading="lazy"
               @error="handleImageError"
             />
-            <span class="truncate max-w-[150px] text-sm font-semibold">
+            <span
+              class="truncate max-w-[100px] text-sm font-semibold sm:max-w-[150px] md:max-w-[200px] lg:max-w-[300px]"
+            >
               {{ campaign.school_name }}
             </span>
           </div>
           <button
-            class="bg-transparent text-pink-600 outline outline-pink-600 outline-1 px-2 py-1 rounded-lg hover:bg-pink-100 font-semibold"
+            class="bg-transparent text-pink-600 outline outline-pink-600 outline-1 px-2 py-1 rounded-lg hover:bg-pink-100 font-semibold text-xs md:text-sm lg:text-base md:px-4"
           >
             Join Campaign
           </button>
